@@ -2,6 +2,9 @@
 
 > Fix file encoding in Windows 8 Javascript apps.
 
+Compiling a Windows 8 app written in Javascript requires the files to be UTF-8 encoded with BOM (Byte Order Mark), this reads files from the directories you pass it, and rewrites them as UTF-8 with BOM.   
+   
+
 ## Getting Started
 This plugin requires Grunt `~0.4.4`
 
