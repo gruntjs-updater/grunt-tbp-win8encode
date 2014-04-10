@@ -1,0 +1,42 @@
+{
+  "name": "grunt-tbp-win8encode",
+  "description": "Fix file encoding in Windows 8 Javascript apps.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ThinkBigPartners/grunt-tbp-win8encode",
+  "author": {
+    "name": "Eric Dorsey",
+    "email": "eric@ericdorsey.com",
+    "url": "http://ericdorsey.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ThinkBigPartners/grunt-tbp-win8encode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ThinkBigPartners/grunt-tbp-win8encode/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ThinkBigPartners/grunt-tbp-win8encode/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.4"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.4"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
