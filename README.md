@@ -24,7 +24,7 @@ In your project's Gruntfile, add a section named `tbp_win8encode` to the data ob
 
 ```js
 grunt.initConfig({
-  tbp_win8encode: ['bower_components/**/*.*','js/**/*.*, 'pages/**/*.*']
+  tbp_win8encode: ['bower_components/**/*.*','js/**/*.*', 'pages/**/*.*']
   },
 });
 ```
@@ -36,7 +36,7 @@ In this example, the task is passed the directories/files that should be checked
 
 ```js
 grunt.initConfig({
-  tbp_win8encode: ['bower_components/**/*.*','js/**/*.*, 'pages/**/*.*']
+  tbp_win8encode: ['bower_components/**/*.*','js/**/*.*', 'pages/**/*.*']
   },
 });
 ```
